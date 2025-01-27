@@ -13,7 +13,12 @@ main {
   padding: 0;
   display: flex;
   gap: 0.5rem;
-  overflow: auto;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+li{
+  flex: 1;
 }
 
 #fallback {
